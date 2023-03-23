@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#6E748F"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <EditText
+            android:id="@+id/sid"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:hint="ID:"
+            android:inputType="number"
+            android:textColorHint="#FFFFFF"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="NAME:"
+            android:layout_below="@+id/sid"
+            android:textColorHint="#FFFFFF"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Email:"
+            android:layout_below="@+id/name"
+            android:textColorHint="#FFFFFF"
+            android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/cc"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="CourseCode:"
+        android:layout_below="@+id/email"
+        android:textColorHint="#FFFFFF"
+        android:textSize="15sp" />
+
+
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="#69CC6E"
+            android:padding="2dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="2dp"
+            android:text="Insert Record"
+            android:layout_below="@+id/cc"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="5dp" />
+        />
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="#BD3030"
+            android:layout_below="@+id/add"
+            android:padding="2dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="2dp"
+            android:text="Delete Record"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="5dp" />
+
+        <Button
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="#6C2ADF"
+            android:padding="2dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="2dp"
+            android:text="View Record"
+            android:layout_below="@+id/delete"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="5dp" />
+
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="#BBC83F"
+            android:padding="2dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="2dp"
+            android:layout_below="@+id/view"
+            android:text="Update Record"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="5dp" />
+
+
+        <Button
+            android:id="@+id/viewAll"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="#338FDA"
+            android:padding="2dp"
+            android:layout_below="@+id/update"
+            android:text="View All Record"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="2dp"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="5dp" />
+
+
+
+
+</RelativeLayout>
